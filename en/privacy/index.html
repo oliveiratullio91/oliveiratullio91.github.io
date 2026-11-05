@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy policy — Matetic</title>
+  <meta name="description" content="How Matetic protects data and provides a local experience for children and teenagers.">
+  <link rel="canonical" href="https://oliveiratullio91.github.io/en/privacy">
+  <link rel="alternate" hreflang="pt-BR" href="https://oliveiratullio91.github.io/privacy">
+  <link rel="alternate" hreflang="en" href="https://oliveiratullio91.github.io/en/privacy">
+  <link rel="alternate" hreflang="es" href="https://oliveiratullio91.github.io/es/privacy">
+  <link rel="alternate" hreflang="fr" href="https://oliveiratullio91.github.io/fr/privacy">
+  <link rel="alternate" hreflang="it" href="https://oliveiratullio91.github.io/it/privacy">
+  <link rel="alternate" hreflang="de" href="https://oliveiratullio91.github.io/de/privacy">
+  <link rel="alternate" hreflang="ja" href="https://oliveiratullio91.github.io/ja/privacy">
+  <link rel="alternate" hreflang="zh-Hans" href="https://oliveiratullio91.github.io/zh/privacy">
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #140c3d;
+      --panel: #24136a;
+      --panel-soft: #2f1a83;
+      --text: #ffffff;
+      --muted: #d6d2ff;
+      --accent: #42d8ff;
+      --accent-2: #ffca38;
+      --border: rgba(255, 255, 255, 0.18);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 18% 8%, rgba(66, 216, 255, 0.26), transparent 26rem),
+        radial-gradient(circle at 85% 18%, rgba(255, 202, 56, 0.22), transparent 24rem),
+        linear-gradient(180deg, #130936 0%, #1b0f55 52%, #0d082b 100%);
+    }
+
+    .wrap {
+      width: min(960px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 40px 0 56px;
+    }
+
+    header {
+      margin-bottom: 24px;
+      padding: 28px;
+      border: 1px solid var(--border);
+      border-radius: 24px;
+      background: rgba(36, 19, 106, 0.78);
+      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.26);
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 18px;
+      font-weight: 800;
+      letter-spacing: 0.02em;
+      color: var(--accent-2);
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+
+    .header-top { display: flex; align-items: flex-start; justify-content: space-between; flex-wrap: wrap; gap: 16px; margin-bottom: 24px; }
+    .header-top .brand { margin-bottom: 0; min-height: 44px; }
+    .languages { max-width: 100%; }
+    .language-label { display: block; margin: 0 0 6px; color: var(--muted); font-size: .8rem; }
+    .flag-list { display: flex; flex-wrap: wrap; gap: 6px; }
+    .language-option { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; width: 46px; min-height: 55px; padding: 7px 4px 5px; border: 1px solid var(--border); border-radius: 12px; text-decoration: none; color: var(--muted); background: rgba(255,255,255,.05); font-size: .65rem; line-height: 1; transition: border-color .2s, background .2s, transform .2s; }
+    .language-option svg { width: 28px; height: 19px; display: block; border-radius: 3px; box-shadow: 0 1px 4px #0005; }
+    .language-option:hover { background: #ffffff12; border-color: var(--accent); transform: translateY(-2px); }
+    .language-option[aria-current] { border-color: var(--accent-2); color: var(--accent-2); background: linear-gradient(160deg, #ffd76822, #ffffff06); box-shadow: 0 0 14px #ffca3818; }
+    a:focus-visible { outline: 3px solid var(--accent-2); outline-offset: 4px; }
+    .document-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px 22px; }
+    .documents { list-style: none; padding: 0; display: grid; gap: 12px; }
+    .documents a { display: block; padding: 14px 18px; border: 1px solid var(--border); border-radius: 12px; background: var(--panel-soft); text-decoration: none; }
+    .documents a:hover { border-color: var(--accent-2); }
+    @media (prefers-reduced-motion: reduce) { .language-option { transition: none; } .language-option:hover { transform: none; } }
+
+    .mark {
+      display: grid;
+      width: 38px;
+      height: 38px;
+      place-items: center;
+      border-radius: 12px;
+      color: #1a1050;
+      background: linear-gradient(135deg, #ffdf64, #ff8a2a);
+      font-weight: 900;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(2rem, 5vw, 3.9rem);
+      line-height: 1.1;
+      letter-spacing: 0;
+    }
+
+    h1, h2 { overflow-wrap: anywhere; hyphens: auto; }
+
+    .lead {
+      max-width: 760px;
+      margin: 0;
+      color: var(--muted);
+      font-size: clamp(1rem, 2.6vw, 1.18rem);
+    }
+
+    main {
+      display: grid;
+      gap: 18px;
+    }
+
+    section {
+      padding: 24px;
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      background: rgba(31, 17, 88, 0.76);
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 1.35rem;
+      line-height: 1.2;
+    }
+
+    p,
+    ul,
+    ol {
+      margin-top: 0;
+      overflow-wrap: anywhere;
+    }
+
+    p:last-child,
+    ul:last-child,
+    ol:last-child {
+      margin-bottom: 0;
+    }
+
+    a {
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .pill {
+      padding: 8px 12px;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.08);
+    }
+
+    footer {
+      margin-top: 22px;
+      color: var(--muted);
+      font-size: 0.95rem;
+      text-align: center;
+    }
+
+    @media (max-width: 640px) {
+      .wrap {
+        width: min(100% - 24px, 960px);
+        padding-top: 18px;
+      }
+
+      header,
+      section {
+        padding: 18px;
+        border-radius: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="header-top">
+        <a class="brand" href="/en"><span class="mark">M</span><span>Matetic</span></a>
+        <nav class="languages" aria-label="Language">
+    <span class="language-label">Language</span>
+    <div class="flag-list">
+      <a class="language-option" href="/privacy" lang="pt-BR"
+         hreflang="pt-BR" aria-label="Português (Brasil)"
+         title="Português (Brasil)">
+        <svg viewBox="0 0 36 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path fill="#009b3a" d="M0 0h36v24H0z"/><path fill="#ffdf00" d="m18 2 15 10-15 10L3 12Z"/><circle cx="18" cy="12" r="6.2" fill="#002776"/><path d="M12.2 10.5q6-1.2 11.7 3" fill="none" stroke="#fff" stroke-width="1"/></svg><span>PT</span>
+      </a>
+      <a class="language-option" href="/en/privacy" lang="en"
+         hreflang="en" aria-label="English"
+         title="English" aria-current="page">
+        <svg viewBox="0 0 36 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path fill="#fff" d="M0 0h36v24H0z"/><path fill="#b22234" d="M0 0h36v1.8461538461538463H0z"/><path fill="#b22234" d="M0 3.6923076923076925h36v1.8461538461538463H0z"/><path fill="#b22234" d="M0 7.384615384615385h36v1.8461538461538463H0z"/><path fill="#b22234" d="M0 11.076923076923077h36v1.8461538461538463H0z"/><path fill="#b22234" d="M0 14.76923076923077h36v1.8461538461538463H0z"/><path fill="#b22234" d="M0 18.46153846153846h36v1.8461538461538463H0z"/><path fill="#b22234" d="M0 22.153846153846153h36v1.8461538461538463H0z"/><path fill="#3c3b6e" d="M0 0h15v13H0z"/><circle fill="#fff" cx="2" cy="2" r=".6"/><circle fill="#fff" cx="4.7" cy="2" r=".6"/><circle fill="#fff" cx="7.4" cy="2" r=".6"/><circle fill="#fff" cx="10.100000000000001" cy="2" r=".6"/><circle fill="#fff" cx="12.8" cy="2" r=".6"/><circle fill="#fff" cx="2" cy="4.8" r=".6"/><circle fill="#fff" cx="4.7" cy="4.8" r=".6"/><circle fill="#fff" cx="7.4" cy="4.8" r=".6"/><circle fill="#fff" cx="10.100000000000001" cy="4.8" r=".6"/><circle fill="#fff" cx="12.8" cy="4.8" r=".6"/><circle fill="#fff" cx="2" cy="7.6" r=".6"/><circle fill="#fff" cx="4.7" cy="7.6" r=".6"/><circle fill="#fff" cx="7.4" cy="7.6" r=".6"/><circle fill="#fff" cx="10.100000000000001" cy="7.6" r=".6"/><circle fill="#fff" cx="12.8" cy="7.6" r=".6"/><circle fill="#fff" cx="2" cy="10.399999999999999" r=".6"/><circle fill="#fff" cx="4.7" cy="10.399999999999999" r=".6"/><circle fill="#fff" cx="7.4" cy="10.399999999999999" r=".6"/><circle fill="#fff" cx="10.100000000000001" cy="10.399999999999999" r=".6"/><circle fill="#fff" cx="12.8" cy="10.399999999999999" r=".6"/></svg><span>EN</span>
+      </a>
+      <a class="language-option" href="/es/privacy" lang="es"
+         hreflang="es" aria-label="Español"
+         title="Español">
+        <svg viewBox="0 0 36 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path fill="#aa151b" d="M0 0h36v24H0z"/><path fill="#f1bf00" d="M0 6h36v12H0z"/><path fill="#aa151b" d="M10 9h4v6h-4z"/><path stroke="#fff" stroke-width=".6" d="M9 9v6m6-6v6"/></svg><span>ES</span>
+      </a>
+      <a class="language-option" href="/fr/privacy" lang="fr"
+         hreflang="fr" aria-label="Français"
+         title="Français">
+        <svg viewBox="0 0 36 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path fill="#fff" d="M0 0h36v24H0z"/><path fill="#002654" d="M0 0h12v24H0z"/><path fill="#ed2939" d="M24 0h12v24H24z"/></svg><span>FR</span>
+      </a>
+      <a class="language-option" href="/it/privacy" lang="it"
+         hreflang="it" aria-label="Italiano"
+         title="Italiano">
+        <svg viewBox="0 0 36 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path fill="#fff" d="M0 0h36v24H0z"/><path fill="#009246" d="M0 0h12v24H0z"/><path fill="#ce2b37" d="M24 0h12v24H24z"/></svg><span>IT</span>
+      </a>
+      <a class="language-option" href="/de/privacy" lang="de"
+         hreflang="de" aria-label="Deutsch"
+         title="Deutsch">
+        <svg viewBox="0 0 36 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path d="M0 0h36v24H0z"/><path fill="#d00" d="M0 8h36v8H0z"/><path fill="#ffce00" d="M0 16h36v8H0z"/></svg><span>DE</span>
+      </a>
+      <a class="language-option" href="/ja/privacy" lang="ja"
+         hreflang="ja" aria-label="日本語"
+         title="日本語">
+        <svg viewBox="0 0 36 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path fill="#fff" d="M0 0h36v24H0z"/><circle fill="#bc002d" cx="18" cy="12" r="7"/></svg><span>JA</span>
+      </a>
+      <a class="language-option" href="/zh/privacy" lang="zh-Hans"
+         hreflang="zh-Hans" aria-label="简体中文"
+         title="简体中文">
+        <svg viewBox="0 0 36 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false"><path fill="#de2910" d="M0 0h36v24H0z"/><g transform="translate(7 7) scale(1.2)"><path d="M0-3 0.88-0.92 2.85-0.92 1.42 0.54 1.76 2.43 0 1.5-1.76 2.43-1.42 0.54-2.85-0.92-0.88-0.92Z" fill="#ffde00"/></g><g transform="translate(13 3) rotate(20) scale(.38)"><path d="M0-3 0.88-0.92 2.85-0.92 1.42 0.54 1.76 2.43 0 1.5-1.76 2.43-1.42 0.54-2.85-0.92-0.88-0.92Z" fill="#ffde00"/></g><g transform="translate(16 6) rotate(45) scale(.38)"><path d="M0-3 0.88-0.92 2.85-0.92 1.42 0.54 1.76 2.43 0 1.5-1.76 2.43-1.42 0.54-2.85-0.92-0.88-0.92Z" fill="#ffde00"/></g><g transform="translate(16 10) rotate(15) scale(.38)"><path d="M0-3 0.88-0.92 2.85-0.92 1.42 0.54 1.76 2.43 0 1.5-1.76 2.43-1.42 0.54-2.85-0.92-0.88-0.92Z" fill="#ffde00"/></g><g transform="translate(13 13) rotate(45) scale(.38)"><path d="M0-3 0.88-0.92 2.85-0.92 1.42 0.54 1.76 2.43 0 1.5-1.76 2.43-1.42 0.54-2.85-0.92-0.88-0.92Z" fill="#ffde00"/></g></svg><span>ZH</span>
+      </a>
+    </div>
+  </nav>
+      </div>
+      <h1>Privacy policy — Matetic</h1>
+      <p class="lead">How Matetic protects data and provides a local experience for children and teenagers.</p>
+      <div class="meta">
+        <span class="pill">Last updated: October 2, 2026</span>
+        <span class="pill">Contact: <a href="mailto:valionsuport@gmail.com">valionsuport@gmail.com</a></span>
+      </div>
+    </header>
+    <main>
+<section><p>Updated: November 5, 2026. This policy describes version 1.1.0 and later. Version 1.0.45 and earlier have no advertising SDK or real-money in-game purchases. Availability of the new version depends on store publication and review.</p></section><section><h2>Audience and age protection</h2><p>Matetic is a mental arithmetic game intended for teenagers aged 13 and over and adults. The developer is Tullio Oliveira; contact valionsuport@gmail.com. The intended audience differs from the regional content rating displayed by Google Play.</p><p>A neutral age selection stores only an age group on this device, never a birthday or exact age. This version does not unlock play for under-13 or undisclosed-age selections; existing saved progress is preserved. Players aged 13–17 play locally, without advertising, real-money purchases, Firebase, Google sign-in, public leaderboards or cloud sync.</p><p>On Android, online services and monetization require an 18+ selection and an adult signal from Google Play. If that signal is unavailable or does not confirm an adult, local play remains available without ads or real-money purchases. Protection is reassessed when the app resumes. We do not retain Play age bounds or installation identifiers, send the age signal to our server or ad networks, or use it for advertising profiles.</p></section><section><h2>Free download and optional purchases</h2><p>The download becomes free once the store price change takes effect. Previous download purchases remain subject to Google Play rules. Buying items is never required to play. Earned coins redeem Freeze ×5 for 450 coins or Eliminate ×5 for 550 coins.</p><p>Eligible adults with a permanent account may buy the same consumable packs through Google Play at the local price confirmed before payment. Each grants five uses. There are no subscriptions, coin sales, paid randomized items or loot boxes. Google handles payment details; we do not receive card numbers. Our server receives account ID, product, purchase token, payment status and inventory to validate, deliver once, consume items and handle refunds. Refunds may revoke unused items. Minimal transaction and fraud-prevention records may remain separate from the profile after account deletion to prevent receipt reuse and meet applicable obligations.</p></section><section><h2>Advertising and privacy choices</h2><p>Only eligible adults may receive a Google AdMob banner on the home screen. There are no ads during questions, app-open interstitials or mandatory rewarded videos. Requests are always non-personalized and limited to general-audience ad content. The Android advertising-ID permission is removed.</p><p>Before requesting ads, we update consent information through Google UMP and show applicable messages. Failed updates, forms or required authorization result in no ad requests. When required, “Ad privacy” on the home screen reopens privacy choices. Missing ads never block play. Serving also depends on region, availability and AdMob approval.</p><p>Non-personalized ads still process data. AdMob/UMP may process IP address, including approximate location and regional rules, device and app information, technical identifiers, ad interactions and diagnostics for delivery, measurement, consent, security and fraud prevention. We do not send exercise answers, progress, email, nickname or Play age signals to AdMob. No separate analytics SDK is included. See <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a> and <a href="https://support.google.com/admob/answer/6128543.">https://support.google.com/admob/answer/6128543.</a></p></section><section><h2>Local and online data</h2><p>Local data includes age group, nickname, character, progress, answers and mistakes used for practice, coins, local inventory, language, audio and accessibility preferences. Family controls keep seven days of foreground usage, the daily limit and a cryptographic PIN verifier locally. The PIN is never stored as plain text or sent to our server. Teen profiles initially have a 30-minute limit; a guardian can choose 15, 30, 45, 60, 90 or 120 minutes. This is a product default, not medical advice. A PIN does not verify identity, age or parental consent.</p><p>For eligible adults using online features, Firebase/Google Cloud processes account ID, authentication details, email if provided, nickname, progress summaries and results required by enabled features. Cloudflare Workers/D1 verifies games, purchases and deletion requests. Providers can process IP and technical logs in other countries. We do not request camera, microphone, contacts, precise location, personal files or phone numbers; there is no chat or push notification service. We do not sell personal data or request personalized ads.</p><p>Services use HTTPS, authentication and access controls. Local data persists until cleared; uninstalling or clearing app data can erase progress and controls. Online data remains while the account exists, except minimal legal, security and fraud-prevention records. No security measure eliminates every risk.</p></section><section><h2>Deletion and rights</h2><p>Open Settings &gt; Account &gt; Delete account and data. Local deletion clears this device; online deletion requires server confirmation and can continue after an interruption. For access, correction or deletion, email valionsuport@gmail.com with your account email or technical identifier. Do not send passwords, PINs, identity documents or card details. Ownership verification may be necessary.</p><p>Instructions: <a href="https://oliveiratullio91.github.io/en/account-deletion.">https://oliveiratullio91.github.io/en/account-deletion.</a> Family guide: <a href="https://oliveiratullio91.github.io/en/family.">https://oliveiratullio91.github.io/en/family.</a> We update this policy when our practices change.</p></section>
+    </main>
+    <footer>
+      <nav class="document-links" aria-label="Documents">
+        <a href="/en/privacy">Privacy policy</a>
+        <a href="/en/account-deletion">Account and data deletion</a>
+        <a href="/en/family">Family guide</a>
+      </nav>
+    </footer>
+  </div>
+</body>
+</html>
